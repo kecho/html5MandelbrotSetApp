@@ -3,4 +3,6 @@ Zooms in real time until floating point looses precision.
 Set reticule to zoom to an interesting area. You can stop it by clicking on stop and select 
 a new area. The reticule is already pointing to an interesting area. 
 
+Website: http://kecho.rockingtech.com/mandelbrot
+
 Kleber Garcia (c) 2012
