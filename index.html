@@ -1,0 +1,33 @@
+<html>
+<head>
+   <script type="text/javascript" src="js/mandelbrot.js"></script>
+   <script type="text/javascript" src="js/loop.js"></script>
+   <script type="text/javascript" src="js/app.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body onload="main()" style="background: #000000; color: #FFFFFF; font-family:'Arial';text-align:center;">
+   <h1>Mandelbrot Fractal in html5</h1>
+   <h3>by Kleber Garcia (c) 2012 </h3>
+   <center>
+   <table>
+   <tr>
+     <td><canvas id="mainCanvas" height="400" width="600"></canvas></td>
+   </tr>
+   <tr>
+     <td>
+       <center>
+        <input onclick="start()" value="Start" type="button"></input>
+        <input onclick="stop()" value="Stop" type="button"></input>
+        <input onclick="reset()" value="Reset" type="button"></input>
+       </center>
+    </td>
+   <tr>
+   </table>
+        <h6>
+        Use your mouse / pointer to locate an interesting area. Hit Start
+        to start a real time zoom. Hit stop to stop on the desired area. Hit Reset to start over again. Have fun!
+        Done in a couple of hours while on the plane :D
+        <h6>
+   </center>
+</body>
+</html>
